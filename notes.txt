@@ -1,2 +1,3 @@
-- Anneau ou fleur à la place du coeur
+- Charte graphique
 - Lien zoom et localisation dans boutons au niveau de Programme
+- Envoi des informations sur whatsapp
