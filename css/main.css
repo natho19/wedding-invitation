@@ -231,3 +231,30 @@ body {
 .btn-outline-primary:hover {
     color: #fff;
 }
+
+/* Custom CSS */
+
+.main-title {
+    font-size: 60px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.couple-image {
+    width: 93%;
+}
+
+@media screen and (max-width: 767px) {
+    .couple-image {
+        width: 100%;
+    }
+
+    .main-title {
+        font-size: 50px;
+        margin-top: 30px;
+    }
+}
