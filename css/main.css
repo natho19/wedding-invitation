@@ -129,9 +129,9 @@ body {
     border-radius: 3px;
 }
 
-.ww-photo-gallery .ww-gallery {
+/* .ww-photo-gallery .ww-gallery {
     min-height: 500px;
-}
+} */
 
 .ww-photo-gallery .card-columns .card {
     border: none;
