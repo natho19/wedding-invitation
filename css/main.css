@@ -278,3 +278,7 @@ p {
         font-size: 23px;
     }
 }
+
+strong {
+    font-weight: 600;
+}
