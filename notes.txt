@@ -1,3 +1,2 @@
-- Charte graphique
-- Lien zoom et localisation dans boutons au niveau de Programme
+- Corrections des contenus
 - Envoie des informations sur whatsapp
