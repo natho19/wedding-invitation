@@ -1,5 +1,5 @@
 1- Créer une application facebook pour avoir accès à l'API ✅
 2- Tester l'API avec  ✅
 3- Modifier le message de l'API ✅
-4- Coder la méthode fetch en JS
-5- Tester
+4- Coder la méthode fetch en JS ✅
+5- Tester ✅
