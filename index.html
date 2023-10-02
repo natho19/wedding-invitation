@@ -147,18 +147,18 @@
                         <div class="row ww-rsvp-form">
                             <div class="col-md-10">
                                 <div class="card-body">
-                                    <form action="#" method="POST">
+                                    <form action="#" method="POST" id="confirmation-form">
                                         <div class="row">
                                             <div class="col-md-6 pb-3">
                                                 <div class="form-group">
-                                                    <label for="name-input">Nom *</label>
-                                                    <input class="form-control" id="name-input" type="text" name="name" required/>
+                                                    <label for="name">Nom *</label>
+                                                    <input class="form-control" id="name" type="text" name="name" placeholder="Ex : AKAM Afi, Couple BLU, Famille ABI"/>
                                                 </div>
                                             </div>
                                             <div class="col-md-6 pb-3">
                                                 <div class="form-group">
-                                                    <label for="guest-input">Nombre de personnes *</label>
-                                                    <select class="form-control" id="guest-input" name="guest" required>
+                                                    <label for="guest">Nombre de personnes *</label>
+                                                    <select class="form-control" id="guest" name="guest">
                                                         <option value="">Sélectionnez une option</option>
                                                         <option value="1">1</option>
                                                         <option value="2">2</option>
@@ -180,6 +180,18 @@
                                                 </button>
                                             </div>
                                         </div>
+                                        <div id="confirmation-group">
+                                            <div id="confirmation-spinner" class="spinner-border" role="status">
+                                                <span class="sr-only">Loading...</span>
+                                            </div>
+                                            <!-- <div id="confirmation-success" class="alert alert-success" role="alert">
+                                                <i class="fas fa-check"></i> Votre confirmation a été enregistrée avec succès !
+                                            </div> -->
+                                            <!-- <div id="confirmation-error" class="alert alert-danger" role="alert">
+                                                <i class="fas fa-times"></i>
+                                                <span>Une erreur est survenue ! Veuillez réessayer plus tard...</span>
+                                            </div> -->
+                                        </div>
                                     </form>
                                 </div>
                             </div>
@@ -190,7 +202,7 @@
                 <!-- Copyright -->
                 <div class="ww-footer bg-light">
                     <div class="container text-center py-4">
-                        <p class="my-0">&copy;S&S made with love by <a href="https://www.nakpawu.com/" class="text-brown">code house</a></p>
+                        <p class="my-0">&copy;S&S made with love by <a href="https://www.nakpawu.com/" class="text-brown">Code House</a></p>
                     </div>
                 </div>
             </div>
@@ -201,5 +213,6 @@
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/ekko-lightbox.min.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/confirmation.js"></script>
     </body>
 </html>

@@ -312,3 +312,19 @@ p {
 strong {
     font-weight: 600;
 }
+
+#confirmation-group {
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+#confirmation-group .alert {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+#confirmation-group .alert i {
+    margin-right: 12px;
+}
