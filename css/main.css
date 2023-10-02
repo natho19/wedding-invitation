@@ -314,9 +314,12 @@ strong {
 }
 
 #confirmation-group {
-    margin-top: 1.5em;
     display: flex;
     justify-content: center;
+}
+
+#confirmation-group > div {
+    margin-top: 1.5em;
 }
 
 #confirmation-group .alert {

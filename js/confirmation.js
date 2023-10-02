@@ -1,8 +1,31 @@
 'use strict';
 
+const confirmationGroupEl = document.getElementById('confirmation-group');
+
 const confirmationFormEl = document.getElementById('confirmation-form');
 const nameInput = document.getElementById('name');
 const guestSelect = document.getElementById('guest');
+
+function displaySpinner() {
+    confirmationGroupEl.innerHTML = `
+    <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>`;
+}
+
+function displayAlertSuccess() {
+    confirmationGroupEl.innerHTML = `
+    <div class="alert alert-success" role="alert">
+        <i class="fas fa-check"></i> Votre confirmation a été enregistrée avec succès !
+    </div>`;
+}
+
+function displayAlertError() {
+    confirmationGroupEl.innerHTML = `
+    <div id="confirmation-error" class="alert alert-danger" role="alert">
+        <i class="fas fa-times"></i> Une erreur est survenue ! Veuillez réessayer plus tard...
+    </div>`;
+}
 
 confirmationFormEl.addEventListener('submit', event => {
     event.preventDefault();
